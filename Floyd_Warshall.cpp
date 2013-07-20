@@ -12,7 +12,7 @@ using namespace std ;
 
 int main( )
 {
-  int t , n , r , i , j , k , cs ;
+  	int t , n , r , i , j , k , cs ;
 	
 	for( scanf("%d",&t) , cs = 1 ; cs <= t ; cs++ )
 	{
@@ -39,7 +39,7 @@ int main( )
 		}
 		
 		printf("New dist matrix- \n\n") ;
-    for( i = 1 ; i <= n ; i++ )
+    		for( i = 1 ; i <= n ; i++ )
 		{
 			for( j = 1 ; j <= n ; j++ )
 				printf("%d ",dist[i][j]) ;
