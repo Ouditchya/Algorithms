@@ -1,6 +1,6 @@
 // ALGO : Topological Sort ; SOURCE : Coreman ;
 
-// 0 is assumed as source vertex ; for n nodes & m edges
+// 0 is assumed as source vertex , for n nodes & m edges
 
 // Tested, Working. :)
 
