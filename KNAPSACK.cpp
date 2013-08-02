@@ -67,7 +67,7 @@ int main( )
 		// scanf("%d%d",&wt[i],&val[i]) ;
 	}
 	
-    printf("%d",knapSack( W , wt , val , n )) ;
+    	printf("%d",knapSack( W , wt , val , n )) ;
 	
-    return 0 ;
+    	return 0 ;
 }
