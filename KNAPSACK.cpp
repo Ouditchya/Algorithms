@@ -50,11 +50,11 @@ int knapSack( int W , int wt[] , int val[] , int n )
    return K[n][W] ;
 }
 
-int main()
+int main( )
 {
-  int W , n , i ;
+  	int W , n , i ;
     
-  W = inp() ;
+  	W = inp() ;
 	n = inp() ;
 	// scanf("%d%d",&W,&n) ;
 	
