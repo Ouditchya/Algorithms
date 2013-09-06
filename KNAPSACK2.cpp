@@ -1,4 +1,4 @@
-// ALGO : Knapsack Problem ; SOURCE : Wikipedia , https://en.wikipedia.org/wiki/Knapsack_problem#0.2F1_Knapsack_Problem ;
+// ALGO : Large Knapsack Problem ; SOURCE : Wikipedia , https://en.wikipedia.org/wiki/Knapsack_problem#0.2F1_Knapsack_Problem ;
 
 // Tested, Working. :)
 
@@ -46,7 +46,7 @@ int main( )
         for( i = 0 ; i < n ; i++ )
         {
                 wt[i] = inp( ) ;
-        val[i] = inp( ) ;
+                val[i] = inp( ) ;
         }
  
         memset( dp , 0 , sizeof( dp ) ) ;
